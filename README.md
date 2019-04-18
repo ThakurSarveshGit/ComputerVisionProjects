@@ -1,4 +1,4 @@
-# ComputationalPhotography
+# Introduction to Computer Vision
 Contains basic computer vision concepts implemented in Jupyter notebooks with opencv and python.
 
 Content Included:
