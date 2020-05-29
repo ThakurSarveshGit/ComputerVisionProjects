@@ -14,10 +14,10 @@ The project is broken down into four main parts:
 
 [Notebook 1](Module1_IntroductionToComputerVision/ProjectOne/1_LoadAndVisualizeData.ipynb): Loading and Visualizing the Facial Keypoint Data
 
-[Notebook 2]: Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
+[Notebook 2](2_Define_TheNetworkArchitecture.ipynb): Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
 
-[Notebook 3]: Facial Keypoint Detection Using Haar Cascades and our trained CNN.
+[Notebook 3](3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.
 
-[Notebook 4]: Applications using Facial Keypoints
+[Notebook 4](4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
