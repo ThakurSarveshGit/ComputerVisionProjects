@@ -12,7 +12,7 @@ In this project, I combined my knowledge of computer vision techniques and deep 
 
 The project is broken down into four main parts:
 
-[Notebook 1](Module1_IntroductionToComputerVision/ProjectOne/1. Load and Visualize Data.ipynb): Loading and Visualizing the Facial Keypoint Data
+[Notebook 1](Module1_IntroductionToComputerVision/ProjectOne/1.\ Load\ and\ Visualize\ Data.ipynb): Loading and Visualizing the Facial Keypoint Data
 
 [Notebook 2]: Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
 
