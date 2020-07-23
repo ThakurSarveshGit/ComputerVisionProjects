@@ -12,10 +12,10 @@ In this project, I combined my knowledge of computer vision techniques and deep 
 
 The project is broken down into four main parts:
 
-[Notebook 1](Module1_IntroductionToComputerVision/ProjectOne/1_LoadAndVisualizeData.ipynb): Loading and Visualizing the Facial Keypoint Data
-[Notebook 2](Module1_IntroductionToComputerVision/ProjectOne/2_Define_TheNetworkArchitecture.ipynb): Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
-[Notebook 3](Module1_IntroductionToComputerVision/ProjectOne/3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.
-[Notebook 4](Module1_IntroductionToComputerVision/ProjectOne/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
+[Notebook 1](FacialKeypointRecognition/1_LoadAndVisualizeData.ipynb): Loading and Visualizing the Facial Keypoint Data
+[Notebook 2](FacialKeypointRecognition/2_Define_TheNetworkArchitecture.ipynb): Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
+[Notebook 3](FacialKeypointRecognition/3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.
+[Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 ## Project Two: Virtual Pen and Eraser
 
