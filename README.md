@@ -1,8 +1,8 @@
-# Introduction to Computer Vision
-Contains basic computer vision concepts implemented in Jupyter notebooks with opencv and python.
+# Computer Vision Projects - Classical and Modern Approaches
+Contains Computer Vision projects implemented with OpenCV and Python.
 
-Content Included:
-1. Introduction to Computer Vision
+Projects aimed at:
+1. Classical Computer Vision Techniques
 2. Advanced Computer Vision and Deep Learning
 3. Object Tracking and Localization
 
@@ -19,5 +19,9 @@ The project is broken down into four main parts:
 [Notebook 3](Module1_IntroductionToComputerVision/ProjectOne/3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.
 
 [Notebook 4](Module1_IntroductionToComputerVision/ProjectOne/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
+
+## Project Two: Virtual Pen and Eraser
+
+
 
 
