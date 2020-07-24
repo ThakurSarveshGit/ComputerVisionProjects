@@ -23,6 +23,14 @@ I recently came across posts on linkedin, where people were drawing virtually on
 
 ![OK? OK](VirtualPen&Eraser/GIF_VirtualPen_2_Small.gif)
 
+## Project Three: Custom Panaroma using OpenCV
+
+In this mini-mini-project, I have build a custom panaroma script using Feature Matching through ORB algorithm. This is followed by Image Alignment after finding the Homogenous Transformation between the two images and applying perspective transformation to one of the image.
+
+![Original Image 1](CreatePanaroma/Data/Photos/IMG_20200723_112355.jpg)
+![Original Image 2](CreatePanaroma/Data/Photos/IMG_20200723_112359.jpg)
+![Result](CreatePanaroma/Result.jpg)
+
 # . . .
 
 
