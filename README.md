@@ -23,13 +23,24 @@ I recently came across posts on linkedin, where people were drawing virtually on
 
 ![OK? OK](VirtualPen&Eraser/GIF_VirtualPen_2_Small.gif)
 
-## Project Three: Custom Panaroma using OpenCV
+## Project Three: Panaroma Creator
 
 In this mini-mini-project, I have build a custom panaroma script using Feature Matching through ORB algorithm. This is followed by Image Alignment after finding the Homogenous Transformation between the two images and applying perspective transformation to one of the image.
 
 ![Result](CreatePanaroma/Result.jpg)
 
-## Project Four: 3D Reconstruction using OpenCV and Python
+## Project Four: Structure from Motion
+
+In this project, I performed structure from motion(a.k.a structure and motion) on an image dataset. The project was extensive and it required a good hand in geometrical transformation techniques. Overall, I am happy(somewhat) to finish it but there are a great amount of modifications I see possible to make it better. I update this project and make it better soon. Here is my course of action:
+
+[x] Camera Calibration for custom dataset.
+[x] Feature Tracking using Optic Flow.
+[x] Image Rectification
+[x] Triangulation.
+[x] 3D Point Cloud Generation.
+[ ] Bundle Adjustment.
+[ ] Visualization through Mayavi/Open3D.
+[ ] Iterative pipeline for real-time video.
 
 # . . .
 
