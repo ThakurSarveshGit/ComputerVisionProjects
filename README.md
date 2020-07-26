@@ -42,6 +42,8 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 - [ ] Visualization through Mayavi/Open3D.  
 - [ ] Iterative pipeline for real-time video.
 
+![Current Result](TopView.png)
+
 ## Project Five: 
 
 # . . .
