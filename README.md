@@ -33,14 +33,14 @@ In this mini-mini-project, I have build a custom panaroma script using Feature M
 
 In this project, I performed structure from motion(a.k.a structure and motion) on an image dataset. The project was extensive and it required a good hand in geometrical transformation techniques. Overall, I am happy(somewhat) to finish it but there are a great amount of modifications I see possible to make it better. I update this project and make it better soon. Here is my course of action:
 
--[x] Camera Calibration for custom dataset.
--[x] Feature Tracking using Optic Flow.
--[x] Image Rectification
--[x] Triangulation.
--[x] 3D Point Cloud Generation.
--[ ] Bundle Adjustment.
--[ ] Visualization through Mayavi/Open3D.
--[ ] Iterative pipeline for real-time video.
+-[x] Camera Calibration for custom dataset.  
+-[x] Feature Tracking using Optic Flow.  
+-[x] Image Rectification.  
+-[x] Triangulation.  
+-[x] 3D Point Cloud Generation.  
+-[ ] Bundle Adjustment.  
+-[ ] Visualization through Mayavi/Open3D.  
+-[ ] Iterative pipeline for real-time video.  
 
 # . . .
 
