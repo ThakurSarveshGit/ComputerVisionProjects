@@ -10,7 +10,7 @@ from construct3d import * ## Also import built-in libraries: cv2, numpy
 def main():
 	# Camera Calibration Matrix & # Distortion coefficients
 
-	# Google Pixel 4 Camera
+	# Google Pixel 4 Camera - Calibrated
 	fx = 931.15874865;	fy = 930.91937361
 	cx = 394.90314708;	cy = 349.86798692
 	skew_gamma = 0
