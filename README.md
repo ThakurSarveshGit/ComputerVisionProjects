@@ -6,8 +6,8 @@ Projects aimed at:
 2. Advanced Computer Vision and Deep Learning
 3. Object Tracking and Localization
 
-## Project Zero: A Computer Vision Class for complete SLAM solution.
-- [] Completed
+## Project Zero: A Computer Vision Class for complete SLAM solution.  
+- [ ] Completed
 
 ## Project One: Facial Keypoints Recognition  
 - [x] Completed
