@@ -54,7 +54,7 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 ## Project Five: Augmented Reality  
 - [ ] Completed
 
-In this project, I am placing a 3d object() on a flat surface in this project.
+In this project, I am placing a 3d object() on a flat surface.
 
 # . . .
 
