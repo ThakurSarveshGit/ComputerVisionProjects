@@ -1,5 +1,5 @@
 # Computer Vision Projects - Classical and Modern Approaches
-Contains Computer Vision projects implemented with OpenCV and Python.
+Contains Computer Vision projects I implemented out of interest. 
 
 Projects aimed at:
 1. Classical Computer Vision Techniques
