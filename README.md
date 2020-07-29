@@ -45,16 +45,13 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 - [x] Image Rectification.  
 - [x] Triangulation.  
 - [x] 3D Point Cloud Generation.  
-- [ ] Bundle Adjustment.  
-- [ ] Visualization through Mayavi/Open3D.  
-- [ ] Iterative pipeline for real-time video.
 
 ![Current Result](StructureFromMotion/TopView.png)
 
 ## Project Five: Augmented Reality  
 - [ ] Completed
 
-In this project, I am placing a 3d object() on a flat surface.
+In this project, I am placing a 3d object() on a flat surface. Coming Soon!
 
 # . . .
 
