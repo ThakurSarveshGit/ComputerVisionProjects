@@ -27,7 +27,7 @@ In this mini-mini-project, I have build a custom panaroma script using Feature M
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/CreatePanaroma/Result.jpg" alt="PanoramaResult" width="250"/>
 </p>
 
-## Project Three: Buoy Detection using Gaussian Mixture Models
+## [Project Three: Buoy Detection using Gaussian Mixture Models](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/BuoyDetectionGMM)
 
 This project introduced the concept of color segmentation using Gaussian Mixture Models and Expectation Maximization techniques. The video sequence provided has been captured underwater and shows three buoys of different colors, namely yellow, orange and green. They are almost circular in shape and are distinctly colored. However, conventional segmentation techniques involving color thresholding will not work well in such an environment, since noise and varying light intensities will render any hard-coded thresholds ineffective. In such a scenario, we “learn” the color distributions of the buoys and use that learned model to segment them. This project required us to obtain a tight segmentation of each buoy for the entire video sequence by applying a tight contour (in the respective color of the buoy being segmented) around each buoy.
 <p align="center">
@@ -80,7 +80,7 @@ The project is broken down into four main parts:
 [Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
-## Project Two: Traffic Sign Detection
+## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)
 
 The focus of this project is divided into two pipelines, Traffic sign detection and traffic sign classification. Traffic sign detection is the process of forming a bounding box around a traffic sign, so that the region of interest can be cropped and given to the classifier for sign classification. HSV feature and MSER features are tested for robust sign detection. Model is trained using Support Vector Machines.
 
