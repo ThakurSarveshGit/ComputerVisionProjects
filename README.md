@@ -59,12 +59,11 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 <p align="center">
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width="250"/>
 </p>
+
 ## Project Two: Augmented Reality  
 - [ ] Completed
 
-In this project, I am placing multiple 3d objects(solid ones) on a flat surface. Coming Soon!
-
-# . . .
+In this project, I am placing multiple 3d objects(solid ones) on a flat surface. Coming Soon!   . . .
 
 
 # Computer Vision through Deep Learning Projects
