@@ -18,14 +18,12 @@ I recently came across posts on linkedin, where people were drawing virtually on
 
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/VirtualPen%26Eraser/GIF_VirtualPen_2_Small.gif" alt="OK?OK" width="250"/>
 
-![OK? OK](VirtualPen&Eraser/GIF_VirtualPen_2_Small.gif)
-
 ## Project Two: Panaroma Creator  
 - [x] Completed
 
 In this mini-mini-project, I have build a custom panaroma script using Feature Matching through ORB algorithm. This is followed by Image Alignment after finding the Homogenous Transformation between the two images and applying perspective transformation to one of the image.
 
-![Result](CreatePanaroma/Result.jpg)
+![Result](CreatePanaroma/Result.jpg width="250")
 
 ## Project Three: Buoy Detection using Gaussian Mixture Models
 
