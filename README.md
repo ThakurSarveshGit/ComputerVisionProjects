@@ -16,7 +16,7 @@ Projects aimed at:
 
 I recently came across posts on linkedin, where people were drawing virtually on the screen, originally posted by Mr. Taha Anwar. So, I thought why not try it on my own! Though the original version works on color thresholding to extract the pen from the scene, I had a hard time(& changing light intensities in my background) finding a right range. Hence, I added an aruco marker(tag id: 0) to act as a pen. Feel free to use this version and build your version upon it. A couple of other id markers can work for various colors and even eraser.
 
-<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/VirtualPen&Eraser/GIF_VirtualPen_2_Small.gif" alt="OK?OK" width="250"/>
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/VirtualPen%26Eraser/GIF_VirtualPen_2_Small.gif" alt="OK?OK" width="250"/>
 
 ![OK? OK](VirtualPen&Eraser/GIF_VirtualPen_2_Small.gif)
 
