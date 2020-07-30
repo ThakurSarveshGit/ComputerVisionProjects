@@ -43,7 +43,7 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 - [x] Triangulation.  
 - [x] 3D Point Cloud Generation.
 
-<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width=250"/>
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width="250"/>
 
 ## Project Two: Augmented Reality  
 - [ ] Completed
