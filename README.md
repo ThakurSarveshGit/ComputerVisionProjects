@@ -3,11 +3,10 @@ Contains Computer Vision projects I implemented out of interest.
 
 Projects aimed at:
 1. Classical Computer Vision Techniques
-2. Advanced Computer Vision and Deep Learning Techniques
-3. Object Tracking and Localization using DL
+2. Advanced Computer Vision Techniques
+3. Computer Vision using ML/DL
 
 # Classical Computer Vision Projects
------
 
 ## Project Zero: A Computer Vision Class for complete SLAM solution.  
 - [ ] Completed
@@ -26,9 +25,12 @@ In this mini-mini-project, I have build a custom panaroma script using Feature M
 
 ![Result](CreatePanaroma/Result.jpg)
 
+## Project Three: Buoy Detection using Gaussian Mixture Models
+
+## Project Four: Lane Detection using Sliding Windows
+
 
 # Advanced Computer Vision Techniques
-----
 
 ## Project One: Structure from Motion  
 - [x] Completed
@@ -52,7 +54,6 @@ In this project, I am placing a 3d object() on a flat surface. Coming Soon!
 
 
 # Computer Vision through Deep Learning Projects
------
 
 ## Project One: Facial Keypoints Recognition  
 - [x] Completed
@@ -61,11 +62,7 @@ In this project, I combined my knowledge of computer vision techniques and deep 
 
 The project is broken down into four main parts:
 
-[Notebook 1](FacialKeypointRecognition/1_LoadAndVisualizeData.ipynb): Loading and Visualizing the Facial Keypoint Data
-[Notebook 2](FacialKeypointRecognition/2_Define_TheNetworkArchitecture.ipynb): Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints
-[Notebook 3](FacialKeypointRecognition/3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.
-[Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
-
-
-
-
+[Notebook 1](FacialKeypointRecognition/1_LoadAndVisualizeData.ipynb): Loading and Visualizing the Facial Keypoint Data  
+[Notebook 2](FacialKeypointRecognition/2_Define_TheNetworkArchitecture.ipynb): Defining and Training a Convolutional Neural Network (CNN) to predict Facial Keypoints  
+[Notebook 3](FacialKeypointRecognition/3_FacialKeypointDetectionCompletePipeline.ipynb): Facial Keypoint Detection Using Haar Cascades and our trained CNN.  
+[Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints  
