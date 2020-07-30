@@ -73,7 +73,7 @@ Visual Odometry is a crucial concept in Robotics Perception for estimating the t
 In this project we have frames of a driving sequence taken by a camera in a car, and the scripts to extract the intrinsic parameters. The concepts for Visual Odometry and Structure from Motion are mostly same. After Getting the Essential Matrix, I retrieved Camera's rotation and translation to plot its trajectory.
 
 <p align="center">
-<img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/AdvanceLaneDetection/visualodom.gif" alt="VO" width="250"/>
+<img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/VisualOdometry/visualodom.gif" alt="VO" width="250"/>
 </p>
 
 ## Project Two: Augmented Reality  
@@ -112,7 +112,7 @@ The focus of this project is divided into two pipelines, Traffic sign detection 
 In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors for a final accuracy of 99.1% on the MNIST digit dataset. I plan to use this model to make a virtual calculator later on.
 
 <p align="center">
-  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/MNIST%20Digit%20Recognition/DigitRecognition.png" alt="MNIST Digits Test" width="250"/>
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/MNIST%20Digit%20Recognition/DigitRecognition.png" alt="MNIST Digits Test" width="600"/>
 </p>
 
 ## Project Four: Image Restoration and Colorization
