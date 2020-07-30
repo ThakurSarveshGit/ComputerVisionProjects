@@ -65,6 +65,17 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width="250"/>
 </p>
 
+## [Project Two: Visual Odometry](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/VisualOdometry)
+- [x] Completed
+
+Visual Odometry is a crucial concept in Robotics Perception for estimating the trajectory of the robot (the camera on the robot to be precise). The concepts involved in Visual Odometry are quite the same for SLAM which needless to say is an integral part of Perception.
+
+In this project we have frames of a driving sequence taken by a camera in a car, and the scripts to extract the intrinsic parameters. The concepts for Visual Odometry and Structure from Motion are mostly same. After Getting the Essential Matrix, I retrieved Camera's rotation and translation to plot its trajectory.
+
+<p align="center">
+<img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/AdvanceLaneDetection/visualodom.gif" alt="VO" width="250"/>
+</p>
+
 ## Project Two: Augmented Reality  
 - [ ] Completed
 
@@ -94,3 +105,18 @@ The focus of this project is divided into two pipelines, Traffic sign detection 
 <p align="center">
   <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/TrafficSignsDetection/GIF_TrafficSignDetect.gif" alt="Homography and Pose Estimation" width="250"/>
 </p>
+
+## Project Three: MNIST Digit Recognition - SVM with HOG
+- [x] Completed
+
+In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors for a final accuracy of 99.1% on the MNIST digit dataset. I plan to use this model to make a virtual calculator later on.
+
+<p align="center">
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/MNIST%20Digit%20Recognition/DigitRecognition.png" alt="MNIST Digits Test" width="250"/>
+</p>
+
+## Project Four: Image Restoration and Colorization
+- [ ] Completed
+
+I had an old Black&White picture of my parents back from 80s and now it has got cracks on it as well. This gave me an idea to create a restoration and colorization pipeline. I am currently working on it. Will be posting soon.
+
