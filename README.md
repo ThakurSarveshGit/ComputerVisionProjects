@@ -23,7 +23,7 @@ I recently came across posts on linkedin, where people were drawing virtually on
 
 In this mini-mini-project, I have build a custom panaroma script using Feature Matching through ORB algorithm. This is followed by Image Alignment after finding the Homogenous Transformation between the two images and applying perspective transformation to one of the image.
 
-![Result](CreatePanaroma/Result.jpg width="250")
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/CreatePanaroma/Result.jpg" alt="PanoramaResult" width="250"/>
 
 ## Project Three: Buoy Detection using Gaussian Mixture Models
 
@@ -41,9 +41,9 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 - [x] Feature Tracking using Optic Flow.  
 - [x] Image Rectification.  
 - [x] Triangulation.  
-- [x] 3D Point Cloud Generation.  
+- [x] 3D Point Cloud Generation.
 
-![Current Result](StructureFromMotion/TopView.png)
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width=250"/>
 
 ## Project Two: Augmented Reality  
 - [ ] Completed
