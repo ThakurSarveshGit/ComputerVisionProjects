@@ -34,7 +34,7 @@ This project introduced the concept of color segmentation using Gaussian Mixture
   <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/BuoyDetectionGMM/buoyDetection.gif" alt="Underwater Buoy Detection using Gaussian Mixture Models(GMMs)"  width="250"/>
 </p>
 
-## Project Four: Lane Detection using Sliding Windows
+## [Project Four: Lane Detection using Sliding Windows](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/AdvanceLaneDetection)
 
 In this project we aim to do simple Lane Detection to mimic Lane Departure Warning systems used in SelfDriving Cars.  We are provided with two video sequences(one in normal lighting and other one in changing light intensities), taken from a self driving car.  Our task was to design an algorithm to detect lanes on the road,as well as estimate the road curvature to predict car turns.
 
