@@ -27,9 +27,12 @@ In this mini-mini-project, I have build a custom panaroma script using Feature M
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/CreatePanaroma/Result.jpg" alt="PanoramaResult" width="250"/>
 </p>
 
-## [Project Three: Buoy Detection using Gaussian Mixture Models](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/BuoyDetectionGMM)  
+## [Project Three: Buoy Detection using Gaussian Mixture Models](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/BuoyDetectionGMM)
+
 - [x] Completed
+
 This project introduced the concept of color segmentation using Gaussian Mixture Models and Expectation Maximization techniques. The video sequence provided has been captured underwater and shows three buoys of different colors, namely yellow, orange and green. They are almost circular in shape and are distinctly colored. However, conventional segmentation techniques involving color thresholding will not work well in such an environment, since noise and varying light intensities will render any hard-coded thresholds ineffective. In such a scenario, we “learn” the color distributions of the buoys and use that learned model to segment them. This project required us to obtain a tight segmentation of each buoy for the entire video sequence by applying a tight contour (in the respective color of the buoy being segmented) around each buoy.
+
 <p align="center">
   <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/BuoyDetectionGMM/buoyDetection.gif" alt="Underwater Buoy Detection using Gaussian Mixture Models(GMMs)"  width="250"/>
 </p>
@@ -37,6 +40,7 @@ This project introduced the concept of color segmentation using Gaussian Mixture
 ## [Project Four: Lane Detection using Sliding Windows](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/AdvanceLaneDetection)
  
 - [x] Completed
+
 In this project we aim to do simple Lane Detection to mimic Lane Departure Warning systems used in SelfDriving Cars.  We are provided with two video sequences(one in normal lighting and other one in changing light intensities), taken from a self driving car.  Our task was to design an algorithm to detect lanes on the road,as well as estimate the road curvature to predict car turns.
 
 <p align="center">
@@ -82,9 +86,9 @@ The project is broken down into four main parts:
 [Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
-## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)
- 
+## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)  
 - [x] Completed
+
 The focus of this project is divided into two pipelines, Traffic sign detection and traffic sign classification. Traffic sign detection is the process of forming a bounding box around a traffic sign, so that the region of interest can be cropped and given to the classifier for sign classification. HSV feature and MSER features are tested for robust sign detection. Model is trained using Support Vector Machines.
 
 <p align="center">
