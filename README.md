@@ -123,7 +123,7 @@ I had an old Black&White picture of my parents back from 80s and now it has got 
 <p align="center">
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/Papa.jpg" alt="Original" width="200"/>
   
-  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/maskPapa.jpg" alt="Mask" width="200"/>
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/maskPapaEdited.jpg" alt="Mask" width="200"/>
   
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/RestoredImage.jpg" alt="RestoredAndColorizedImage" width="200"/>
 </p>
