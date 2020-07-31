@@ -116,7 +116,7 @@ In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors
 </p>
 
 ## Project Four: Image Restoration and Colorization
-- [ ] Completed
+- [x] Completed
 
 I had an old Black&White picture of my parents back from 80s and now it has got cracks on it as well. This gave me an idea to create a restoration and colorization pipeline. For the restoration I used, cv2.TELEA method, which basically approximates the neighbourhood pixels for the white pixels in the mask. Mask had to be created manually for this problem, though for digital images, it can be created automatically. Later, I passed the restored image to a CNN network to colorize the image. For the colorization, I used the network developed in this [paper](ImageInpainting_ImageColorization/Colorization.pdf) by Zhang et. al. This model uniquely converts the colorization task to be a classification task. To reduce the number of parameters to be distinguished, model works on LAB format image. L channel is equivalent to the gray channel intensities and the task remains to distinguish between A and B channel. An intelligent approach has been adapted in the paper and A and B channel are combined, so this is reduced to a multiclass classification problem for each pixel. I tried the model on a badly taken picture(and edited too with stamp) from mobile camera back in 2006s of my Father's black&white photograph. Here is the result:
 
