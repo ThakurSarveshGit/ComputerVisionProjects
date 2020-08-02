@@ -30,7 +30,7 @@ def main():
 	sfm.loadImages(imagePath[4], imagePath[5])
 
 	# Track Feature Movement
-	sfm.plotOpticalFlow()
+	# sfm.plotOpticalFlow()
 
 	# Plot rectified images
 	# sfm.plotAlignedImages()
@@ -39,7 +39,7 @@ def main():
 	# cv2.destroyAllWindows()
 	
 	# Plot 3d Point Cloud
-	sfm.plotPointCloud()
+	# sfm.plotPointCloud()
 
 
 

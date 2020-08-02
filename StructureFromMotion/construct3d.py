@@ -177,7 +177,7 @@ class Reconstruct3D:
 			cv2.line(self.alignedImage, (0, i), (self.alignedImage.shape[1], i), (255, 0, 0))
 
 
-	def plotPointCloud(self):
+	def plotPointCloud(self, matplotlibPlot=False):
 		
 		# Plot Point Cloud - Complete Procedure
 
@@ -197,30 +197,65 @@ class Reconstruct3D:
 		print("No. of Points to be projected back in World: {}".format(self.points3D.shape[0]))
 
 		# Plot with matplotlib
-		self.Ys = self.points3D[:, 0]
-		self.Zs = self.points3D[:, 1]
-		self.Xs = self.points3D[:, 2]
+		self.Xs = self.points3D[:, 0]
+		self.Ys = self.points3D[:, 1]
+		self.Zs = self.points3D[:, 2]
 
-		figure = plt.figure()
-		axis = figure.add_subplot(111, projection="3d")
-		axis.scatter(self.Xs, self.Ys, self.Zs, c='r', marker='.')
-		axis.set_xlabel('Y')
-		axis.set_ylabel('Z')
-		axis.set_zlabel('X')
-		plt.title('3D point Cloud')
-		plt.show()
+		if matplotlibPlot:
+			figure = plt.figure()
+			axis = figure.add_subplot(111, projection="3d")
+			axis.scatter(self.Xs, self.Ys, self.Zs, c='b', marker='.')
+			axis.set_xlabel('X')
+			axis.set_ylabel('Y')
+			axis.set_zlabel('Z')
+			plt.title('3D point Cloud')
+			plt.show()
 
-	def create3DSurface(self):
+	def lod_mesh_export(self, mesh, lods, extension, path):
+		mesh_lods = {}
+		for i in lods:
+			mesh_lod = mesh.simplify_quadric_decimation(i)
+			o3d.io.write_triangle_mesh(path+"lod_"+str(i)+extension, mesh_lod)
+			mesh_lods[i] = mesh_lod
+		print("Generation of " + str(i) + "loD successful")
+		return mesh_lods
 
-		# Create a 3D surface using Open3D
+	def create3DSurface(self, matplotlibPlot = False):
+		"""
+			Create a 3D surface using Open3D
+		"""
+		
+		# Calculate Point Cloud
+		self.plotPointCloud(False)
+		
+		# write 3D points to a file
+		np.savetxt('test.txt', np.asarray(self.points3D))
+
+		# Load point cloud
+		pointCloud = np.loadtxt('test.txt')
 		pcd = o3d.geometry.PointCloud()
-		pcd.points = o3d.utility.Vector3dVector(self.points3D)
+		pcd.points = o3d.utility.Vector3dVector(pointCloud)
+		pcd.estimate_normals()
+		
+		# Visualize the point Cloud
+		o3d.visualization.draw_geometries([pcd])
 
-		o3d.visualization.draw_geometries([pcd.points], zoom=0.3412,
-			front=[0.4257, -0.2125, -0.8795], ookat=[2.6172, 2.0475, 1.532], up=[-0.0694, -0.9768, 0.2024])
+		# Create a 3D Surface
+
+		# Poisson Method
+		poissonMesh = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(pcd, depth=8, width=0, scale=1.1, linear_fit=False)[0]
+
+		# Crop extra layers
+		bbox = pcd.get_axis_aligned_bounding_box()
+		p_mesh_crop = poissonMesh.crop(bbox)
+
+		# Visualize the surface
+		o3d.io.write_triangle_mesh("fountainP11_p_mesh_c.ply", p_mesh_crop)
+
+		# my_lods = self.lod_mesh_export(p_mesh_crop, [8000,800,300], ".ply", "")
 
 
-
+		# o3d.visualization.draw_geometries([my_lods[800]])
 
 
 
