@@ -62,7 +62,8 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 - [x] 3D Point Cloud Generation.  
 </p>
 <p align="center">
-<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/TopView.png" alt="SFM" width="250"/>
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/Front.png" alt="SFM" width="250"/>
+<img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/SideView.png" alt="SFM" width="250"/>
 </p>
 
 ## [Project Two: Visual Odometry](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/VisualOdometry)
@@ -97,11 +98,6 @@ The project is broken down into four main parts:
 [Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
-<p align="center">
-  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/FacialKeypointRecognition/key_pts_example.png" alt="Facial Keypoints" width="250"/>
-</p>
-
-
 ## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)  
 - [x] Completed
 
@@ -121,14 +117,14 @@ In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors
 </p>
 
 ## Project Four: Image Restoration and Colorization
-- [x] Completed
+- [ ] Completed
 
 I had an old Black&White picture of my parents back from 80s and now it has got cracks on it as well. This gave me an idea to create a restoration and colorization pipeline. For the restoration I used, cv2.TELEA method, which basically approximates the neighbourhood pixels for the white pixels in the mask. Mask had to be created manually for this problem, though for digital images, it can be created automatically. Later, I passed the restored image to a CNN network to colorize the image. For the colorization, I used the network developed in this [paper](ImageInpainting_ImageColorization/Colorization.pdf) by Zhang et. al. This model uniquely converts the colorization task to be a classification task. To reduce the number of parameters to be distinguished, model works on LAB format image. L channel is equivalent to the gray channel intensities and the task remains to distinguish between A and B channel. An intelligent approach has been adapted in the paper and A and B channel are combined, so this is reduced to a multiclass classification problem for each pixel. I tried the model on a badly taken picture(and edited too with stamp) from mobile camera back in 2006s of my Father's black&white photograph. Here is the result:
 
 <p align="center">
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/Papa.jpg" alt="Original" width="200"/>
   
-  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/maskPapaNew.jpg" alt="Mask" width="200"/>
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/maskPapa.jpg" alt="Mask" width="200"/>
   
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/RestoredImage.jpg" alt="RestoredAndColorizedImage" width="200"/>
 </p>
