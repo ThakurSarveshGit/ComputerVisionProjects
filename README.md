@@ -8,9 +8,6 @@ Projects aimed at:
 
 # Classical Computer Vision Projects
 
-## Project Zero: A Computer Vision Class for complete SLAM solution.  
-- [ ] Completed
-
 ## Project One: Virtual Pen and Eraser  
 - [x] Completed
 
@@ -77,11 +74,10 @@ In this project we have frames of a driving sequence taken by a camera in a car,
 <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/VisualOdometry/visualodom.gif" alt="VO" width="250"/>
 </p>
 
-## Project Two: Augmented Reality  
+## Project Three: Augmented Reality  
 - [ ] Completed
 
 In this project, I am placing multiple 3d objects(solid ones) on a flat surface. Coming Soon!   . . .
-
 
 # Computer Vision through Deep Learning Projects
 
