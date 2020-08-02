@@ -97,6 +97,11 @@ The project is broken down into four main parts:
 [Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
+<p align="center">
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/FacialKeypointRecognition/key_pts_example.png" alt="Facial Keypoints" width="250"/>
+</p>
+
+
 ## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)  
 - [x] Completed
 
