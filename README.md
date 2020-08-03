@@ -8,7 +8,7 @@ Projects aimed at:
 
 # Classical Computer Vision Projects
 
-## Project One: Virtual Pen and Eraser  
+## Virtual Pen and Eraser  
 - [x] Completed
 
 I recently came across posts on linkedin, where people were drawing virtually on the screen, originally posted by Mr. Taha Anwar. So, I thought why not try it on my own! Though the original version works on color thresholding to extract the pen from the scene, I had a hard time(& changing light intensities in my background) finding a right range. Hence, I added an aruco marker(tag id: 0) to act as a pen. Feel free to use this version and build your version upon it. A couple of other id markers can work for various colors and even eraser.
@@ -16,7 +16,7 @@ I recently came across posts on linkedin, where people were drawing virtually on
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/VirtualPen%26Eraser/GIF_VirtualPen_2_Small.gif" alt="OK?OK" width="250"/>
 </p>
 
-## Project Two: Panaroma Creator  
+## Panaroma Creator  
 - [x] Completed
 
 In this mini-mini-project, I have build a custom panaroma script using Feature Matching through ORB algorithm. This is followed by Image Alignment after finding the Homogenous Transformation between the two images and applying perspective transformation to one of the image.
@@ -24,7 +24,7 @@ In this mini-mini-project, I have build a custom panaroma script using Feature M
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/CreatePanaroma/Result.jpg" alt="PanoramaResult" width="250"/>
 </p>
 
-## [Project Three: Buoy Detection using Gaussian Mixture Models](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/BuoyDetectionGMM)
+## [Buoy Detection using Gaussian Mixture Models](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/BuoyDetectionGMM)
 
 - [x] Completed
 
@@ -34,7 +34,7 @@ This project introduced the concept of color segmentation using Gaussian Mixture
   <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/BuoyDetectionGMM/buoyDetection.gif" alt="Underwater Buoy Detection using Gaussian Mixture Models(GMMs)"  width="250"/>
 </p>
 
-## [Project Four: Lane Detection using Sliding Windows](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/AdvanceLaneDetection)
+## [Lane Detection using Sliding Windows](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/AdvanceLaneDetection)
  
 - [x] Completed
 
@@ -46,7 +46,7 @@ In this project we aim to do simple Lane Detection to mimic Lane Departure Warni
 
 # Advanced Computer Vision Techniques
 
-## Project One: Structure from Motion  
+## Structure from Motion  
 - [x] Completed
 
 In this project, I performed structure from motion(a.k.a structure and motion) on an image dataset. The project was extensive and it required a good hand in geometrical transformation techniques. Overall, I am happy(somewhat) to finish it but there are a great amount of modifications I see possible to make it better. I will update this project and make it better soon. Here is my course of action for now:
@@ -63,7 +63,7 @@ In this project, I performed structure from motion(a.k.a structure and motion) o
 <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/StructureFromMotion/SideView.png" alt="SFM" width="250"/>
 </p>
 
-## [Project Two: Visual Odometry](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/VisualOdometry)
+## [Visual Odometry](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/VisualOdometry)
 - [x] Completed
 
 Visual Odometry is a crucial concept in Robotics Perception for estimating the trajectory of the robot (the camera on the robot to be precise). The concepts involved in Visual Odometry are quite the same for SLAM which needless to say is an integral part of Perception.
@@ -74,14 +74,14 @@ In this project we have frames of a driving sequence taken by a camera in a car,
 <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/VisualOdometry/visualodom.gif" alt="VO" width="250"/>
 </p>
 
-## Project Three: Augmented Reality  
+## Augmented Reality  
 - [ ] Completed
 
 In this project, I am placing multiple 3d objects(solid ones) on a flat surface. Coming Soon!   . . .
 
 # Computer Vision through Deep Learning Projects
 
-## Project One: Facial Keypoints Recognition  
+## Facial Keypoints Recognition  
 - [x] Completed
 
 In this project, I combined my knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system that takes in any image with faces, and predicts the location of 68 distinguishing keypoints on each face! Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications.
@@ -94,7 +94,7 @@ The project is broken down into four main parts:
 [Notebook 4](FacialKeypointRecognition/4_ApplicationsKeypoints.ipynb): Applications using Facial Keypoints
 
 
-## [Project Two: Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)  
+## [Traffic Sign Detection](https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/tree/master/TrafficSignsDetection)  
 - [x] Completed
 
 The focus of this project is divided into two pipelines, Traffic sign detection and traffic sign classification. Traffic sign detection is the process of forming a bounding box around a traffic sign, so that the region of interest can be cropped and given to the classifier for sign classification. HSV feature and MSER features are tested for robust sign detection. Model is trained using Support Vector Machines.
@@ -103,7 +103,7 @@ The focus of this project is divided into two pipelines, Traffic sign detection 
   <img src="https://github.com/SarveshRobotics/Perception-For-Autonomous-Robots/blob/master/TrafficSignsDetection/GIF_TrafficSignDetect.gif" alt="Homography and Pose Estimation" width="250"/>
 </p>
 
-## Project Three: MNIST Digit Recognition - SVM with HOG
+## MNIST Digit Recognition - SVM with HOG
 - [x] Completed
 
 In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors for a final accuracy of 99.1% on the MNIST digit dataset. I plan to use this model to make a virtual calculator later on.
@@ -112,7 +112,7 @@ In this project, I trained SVM classifier(with RBF kernel) using HOG descriptors
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/MNIST%20Digit%20Recognition/DigitRecognition.png" alt="MNIST Digits Test" width="600"/>
 </p>
 
-## Project Four: Image Restoration and Colorization
+## Image Restoration and Colorization
 - [x] Completed
 
 I had an old Black&White picture of my parents back from 80s and now it has got cracks on it as well. This gave me an idea to create a restoration and colorization pipeline. For the restoration I used, cv2.TELEA method, which basically approximates the neighbourhood pixels for the white pixels in the mask. Mask had to be created manually for this problem, though for digital images, it can be created automatically. Later, I passed the restored image to a CNN network to colorize the image. For the colorization, I used the network developed in this [paper](ImageInpainting_ImageColorization/Colorization.pdf) by Zhang et. al. This model uniquely converts the colorization task to be a classification task. To reduce the number of parameters to be distinguished, model works on LAB format image. L channel is equivalent to the gray channel intensities and the task remains to distinguish between A and B channel. An intelligent approach has been adapted in the paper and A and B channel are combined, so this is reduced to a multiclass classification problem for each pixel. I tried the model on a badly taken picture(and edited too with stamp) from mobile camera back in 2006s of my Father's black&white photograph. Here is the result:
@@ -125,3 +125,15 @@ I had an old Black&White picture of my parents back from 80s and now it has got 
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/ImageInpainting_ImageColorization/RestoredImage.jpg" alt="RestoredAndColorizedImage" width="200"/>
 </p>
 
+## Neural Style Transfer
+- [x] Completed
+
+I recently came across a new concept in Computer Vision, Neural Style Transfer. I tried a trained network in PyTorch and the results are impressive. To get deep into it, I am creating a custom pipeline, will be hosting its results soon. Here is the pre-trained network's results:
+
+<p align="center">
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/NeuralStyleTransfer/testImages/AchiPhoto.jpg" alt="Original" width="200"/>
+  
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/NeuralStyleTransfer/testImages/Outputfeathers.jpg" alt="Mask" width="200"/>
+  
+  <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/NeuralStyleTransfer/testImages/Outputmosaic.jpg" alt="RestoredAndColorizedImage" width="200"/>
+</p>
