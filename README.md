@@ -137,3 +137,10 @@ I recently came across a new concept in Computer Vision, Neural Style Transfer. 
   
   <img src="https://github.com/SarveshRobotics/ComputerVisionProjects/blob/master/NeuralStyleTransfer/testImages/Outputmosaic.jpg" alt="RestoredAndColorizedImage" width="200"/>
 </p>
+
+## Image Similarity
+-[x] Completed
+
+Today, I finished a very interesting project based on Image Similarity. Basically, it returns user all(custom) of the images it found similar to the query image. I learned a lot of new things while completing this. I came to know about FAST.AI that is making life easier for DL practitioners. I used Fast.AI to accomplish transfer learning from RESNET34 CNN. RESNET34 is originally trained on CIFAR-10 dataset. I initially retrained the last layer of the model on CALTECH101 dataset and then retrained all previous layers to get accuracy of 94.6%. Next, I created Forward Hook to store embeddings of all the images in CALTECH101 dataset(9000+ images). Using Locality Sensitivity Hashing, I wrote a small script to return the user similar images it found to the query image. Here is the result:
+
+
