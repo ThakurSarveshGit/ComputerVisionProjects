@@ -1,5 +1,5 @@
 # Computer Vision Projects - Classical and Modern Approaches
-Contains Computer Vision projects I implemented out of interest. 
+Contains Computer Vision projects I implemented. 
 
 Projects aimed at:
 1. Classical Computer Vision Techniques
